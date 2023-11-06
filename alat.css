@@ -1,0 +1,40 @@
+/*font google*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&display=swap');
+/*body*/
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  height: 100vh;
+}
+/*semua alat gaming gw*/
+.link-alat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*sistem text nya*/
+.link-alat a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255,160,192);
+  background: rgba(0,0,0,0.2);
+  font-family: 'Noto Serif Old Uyghur', serif;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.564);
+}
+/*apa yang terjadi ketika tombolnya di klick?*/
+.link-alat a:hover {
+  transform: scale(1.1);
+  transition: .2s;
+}
